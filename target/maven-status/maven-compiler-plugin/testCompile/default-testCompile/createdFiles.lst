@@ -1,0 +1,4 @@
+com\alayacare\testcases\HotelSearchTest.class
+com\alayacare\testcases\BasePageTest.class
+utilities\ConfigReadUtility.class
+com\alayacare\testcases\LoginPageTest.class

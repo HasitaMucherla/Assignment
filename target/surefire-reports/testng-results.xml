@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="42862" started-at="2018-11-12T02:11:56Z" finished-at="2018-11-12T02:12:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42862" started-at="2018-11-12T02:11:56Z" finished-at="2018-11-12T02:12:39Z">
+      <class name="com.alayacare.testcases.HotelSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.alayacare.testcases.HotelSearchTest@17550481]" name="setup" is-config="true" duration-ms="8459" started-at="2018-11-12T02:11:56Z" finished-at="2018-11-12T02:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="hotelBooking()[pri:0, instance:com.alayacare.testcases.HotelSearchTest@17550481]" name="hotelBooking" duration-ms="11481" started-at="2018-11-12T02:12:04Z" finished-at="2018-11-12T02:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.alayacare.testcases.HotelSearchTest@17550481]" name="tearDown" is-config="true" duration-ms="230" started-at="2018-11-12T02:12:16Z" finished-at="2018-11-12T02:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alayacare.testcases.HotelSearchTest -->
+      <class name="com.alayacare.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.alayacare.testcases.LoginPageTest@783e6358]" name="setup" is-config="true" duration-ms="17847" started-at="2018-11-12T02:12:16Z" finished-at="2018-11-12T02:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyIncorrectUserCredentials()[pri:1, instance:com.alayacare.testcases.LoginPageTest@783e6358]" name="verifyIncorrectUserCredentials" duration-ms="1645" started-at="2018-11-12T02:12:34Z" description="This test case verifies error meassge funtionality when user gives bad password" finished-at="2018-11-12T02:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectUserCredentials -->
+        <test-method status="PASS" signature="verifyLogInFuntionality()[pri:2, instance:com.alayacare.testcases.LoginPageTest@783e6358]" name="verifyLogInFuntionality" duration-ms="2912" started-at="2018-11-12T02:12:36Z" description="This testcase verify Login functionality with correct User Credentials" finished-at="2018-11-12T02:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInFuntionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.alayacare.testcases.LoginPageTest@783e6358]" name="tearDown" is-config="true" duration-ms="252" started-at="2018-11-12T02:12:38Z" finished-at="2018-11-12T02:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alayacare.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
